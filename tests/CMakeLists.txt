@@ -14,6 +14,7 @@ endif()
 add_executable(eva_tests
     "binary_reader_tests.cpp"
     "binary_writer_tests.cpp"
+    "flags_tests.cpp"
 )
 
 target_link_libraries(eva_tests
